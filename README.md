@@ -4,7 +4,7 @@ This repository contains the data for [Resolving Knowledge Conflicts in Large La
 
 ----------------------------------------------------
 ## Dataset
-The top-level key in the json file corresponds to the primary field, and each data point within a field isss represented as a dictionary, with the following key-value pairs:
+The top-level keys in the json file correspond to primary fields, and each data point within a field is represented as a dictionary, with the following key-value pairs:
 - `main_entity`(str): an entity from the generated entity list
 - `parametric_knowledge`(str): extracted parametric knowledge about the `main_entity`
 - `named_entity_lst`(lst): named entities with corresponding types returned by NER models
