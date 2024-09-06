@@ -1,6 +1,6 @@
 # Knowledge Conflict
 
-This repository contains the data for [Resolving Knowledge Conflicts in Large Language Models](https://arxiv.org/abs/2310.00935) using the KNOWLEDGE CONFLICT framework.
+This repository contains the data for [Resolving Knowledge Conflicts in Large Language Models](https://arxiv.org/abs/2310.00935v2) using the KNOWLEDGE CONFLICT framework.
 
 ----------------------------------------------------
 ## Dataset
