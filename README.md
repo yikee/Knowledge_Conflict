@@ -1,4 +1,8 @@
-# Knowledge Conflict
+## Resolving Knowledge Conflicts in Large Language Models <a href="https://arxiv.org/pdf/2310.00935"><img src="https://img.shields.io/badge/Paper-Arxiv-orange" ></a>
+
+<div align="center">
+  <b>Yike Wang*, Shangbin Feng*, Heng Wang, Weijia Shi, Vidhisha Balachandran, Tianxing He, Yulia Tsvetkov</b>
+</div>
 
 ## Dataset
 The top-level keys in the json file correspond to primary fields, and each data point within a field is represented as a dictionary, with the following key-value pairs:
@@ -13,7 +17,7 @@ The top-level keys in the json file correspond to primary fields, and each data 
 - `question_about_nonconflicting_segments`(str): a question related to the nonconflicting segments of `conflicting_knowledge`
 
 ## Citing
-If you use our code or data, please cite our paper:
+If you found this work helpful, please consider starring this repository and citing our paper as shown below:
 
 ```latex
 @article{wang2023resolving,
