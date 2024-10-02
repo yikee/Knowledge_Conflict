@@ -1,8 +1,5 @@
 # Knowledge Conflict
 
-This repository contains the data for [Resolving Knowledge Conflicts in Large Language Models](https://arxiv.org/abs/2310.00935) using the KNOWLEDGE CONFLICT framework.
-
-----------------------------------------------------
 ## Dataset
 The top-level keys in the json file correspond to primary fields, and each data point within a field is represented as a dictionary, with the following key-value pairs:
 - `main_entity`(str): an entity from the generated entity list
