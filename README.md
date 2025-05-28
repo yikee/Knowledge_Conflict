@@ -1,7 +1,9 @@
-## Resolving Knowledge Conflicts in Large Language Models <a href="https://arxiv.org/pdf/2310.00935"><img src="https://img.shields.io/badge/Paper-Arxiv-orange" ></a>
+## Resolving Knowledge Conflicts in Large Language Models <a href="https://arxiv.org/pdf/2310.00935">
 
 <div align="center">
   <b>Yike Wang*, Shangbin Feng*, Heng Wang, Weijia Shi, Vidhisha Balachandran, Tianxing He, Yulia Tsvetkov</b>
+  <br><br>
+  <a href="https://arxiv.org/pdf/2310.00935"><img src="https://img.shields.io/badge/Paper-arXiv-orange"></a>
 </div>
 
 ## Dataset
