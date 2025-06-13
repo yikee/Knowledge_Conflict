@@ -18,6 +18,9 @@ The top-level keys in the json file correspond to primary fields, and each data 
 - `question_about_conflicting_segments`(str): a question related to the conflicting segments of `conflicting_knowledge`
 - `question_about_nonconflicting_segments`(str): a question related to the nonconflicting segments of `conflicting_knowledge`
 
+## Prompts
+The exact prompts used for all experiments are included in the `prompts` folder, with the corresponding samples provided in Appendix E of the paper.
+
 ## Questions
 If you have any questions or comments about our paper or data, feel free to reach out via email at `yikewang@cs.washington.edu`. We will do our best to respond within one business day.
 
