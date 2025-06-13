@@ -1,0 +1,32 @@
+Does the given context conflict with what you know? Yes/No Examples:
+
+Context: Acetamide is an organic compound and the simplest amide derived from acetic acid. It is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories. It is also utilized in the production of pharmaceuticals, dyes, and plastics.
+Follow up: What is acetamide?
+Intermediate answer: Acetamide is an organic compound with the chemical formula CH3CONH2. It is a white, crystalline solid and a simple amide derivative of acetic acid. Acetamide has various applications, including its use in the synthesis of pharmaceuticals, plastics, and as a stabilizer in some explosives. It is also a metabolite in living organisms.
+Follow up: Do these two context directly contradict each other?
+Intermediate answer: No. All the overlapping components align with one another.
+So the final answer is: No
+
+Context: Acetone is an organic compound and the simplest amide derived from acetic acid. It is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories. It is also utilized in the production of pharmaceuticals, dyes, and plastics.
+Follow up: What is acetone?
+Intermediate answer: Acetone is a colorless, flammable liquid solvent widely used in industry and households. It's known for its strong, sweet odor and high volatility. Acetone is utilized as a solvent in paints, varnishes, nail polish removers, and as a key ingredient in the production of plastics, fibers, and pharmaceuticals.
+Follow up: Do these two context directly contradict each other?
+Intermediate answer: Yes. In the given context, acetone is a white crystalline solid, while it is a colorless liquid based on what I know.
+So the final answer is: Yes
+
+Context: Marimba is a musical instrument originating from Africa, characterized by wooden bars struck with mallets to produce sound. It is similar to a xylophone but has a wider range and resonators beneath the bars to enhance the tone. Marimba is commonly used in classical, jazz, and world music genres.
+Follow up: What is marimba?
+Intermediate answer: The marimba is a percussion instrument originating from Africa, with wooden bars of varying lengths and resonators. It gained popularity in Central America, particularly Guatemala, where it's a national symbol. Played with mallets, it produces melodic and rhythmic tones, and it's used in various musical genres worldwide, from classical to folk to contemporary music.
+Follow up: Do these two context directly contradict each other?
+Intermediate answer: No. All the overlapping components align with one another.
+So the final answer is: No
+
+Context: Marimba is a musical instrument originating from Brazil, characterized by wooden bars struck with mallets to produce sound. It is similar to a xylophone but has a wider range and resonators beneath the bars to enhance the tone. Marimba is commonly used in classical, jazz, and world music genres.
+Follow up: What is marimba?
+Intermediate answer: The marimba is a percussion instrument originating from Africa, with wooden bars of varying lengths and resonators. It gained popularity in Central America, particularly Guatemala, where it's a national symbol. Played with mallets, it produces melodic and rhythmic tones, and it's used in various musical genres worldwide, from classical to folk to contemporary music.
+Follow up: Do these two context directly contradict each other?
+Intermediate answer: Yes; In the given context, marimba is originated from Brazil, while it is originated from Africa based on what I know. 
+So the final answer is: Yes
+
+Context: {context}
+Follow up: 

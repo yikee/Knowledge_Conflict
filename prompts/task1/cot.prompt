@@ -1,0 +1,14 @@
+Does the given context conflict with what you know? Yes/No
+
+Examples:
+Context: Acetamide is an organic compound and the simplest amide derived from acetic acid. It is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories. It is also utilized in the production of pharmaceuticals, dyes, and plastics.
+Answer: Based on my knowledge, Acetamide is an organic compound; Acetamide is the simplest amide derived from acetic acid; Acetamide is a white crystalline solid; Acetamide is soluble in water; Acetamide is commonly used as a solvent in laboratories; Acetamide is utilized in the production of pharmaceuticals, dyes, and platics. The number of inconsistency is zero, so the answer is No.
+Context: Acetone is an organic compound and the simplest amide derived from acetic acid. It is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories. It is also utilized in the production of pharmaceuticals, dyes, and plastics.
+Answer: Based on my knowledge, Acetone is an organic compound; Acetone is a type of ketone instead of amide; Acetone is a colorless liquid instead of white solid; Acetone is soluble in water; Acetone is commonly used as a solvent in laboratories; Acetone is utilized in the production of acrylic plastics, polycarbonates and epoxy resins instead of dyes. The number of inconsistency is three, which is greater than zero, so the answer is Yes.
+Context: Marimba is a musical instrument originating from Africa, characterized by wooden bars struck with mallets to produce sound. It is similar to a xylophone but has a wider range and resonators beneath the bars to enhance the tone. Marimba is commonly used in classical, jazz, and world music genres.
+Answer: Based on my knowledge, Marimba is an musical instrument originating from Africa; Marimba is characterized by wooden bars struck with mallets to produce sound; Marimba is similar to a xylophone but has a wider range and resonators beneath the bars to enhance the tone; Marimba is commonly used in classical, jazz, and world music genres. The number of inconsistency is zero, so the answer is No.
+Context: Marimba is a musical instrument originating from Brazil, characterized by wooden bars struck with mallets to produce sound. It is similar to a xylophone but has a wider range and resonators beneath the bars to enhance the tone. Marimba is commonly used in classical, jazz, and world music genres.
+Answer: Based on my knowledge, Marimba is an musical instrument originating from Africa instead of Brazil; Marimba is characterized by wooden bars struck with mallets to produce sound; Marimba is similar to a xylophone but has a wider range and resonators beneath the bars to enhance the tone; Marimba is commonly used in classical, jazz, and world music genres. The number of inconsistency is one, which is greater than zero, so the answer is Yes.
+
+Context: {context}
+Answer:

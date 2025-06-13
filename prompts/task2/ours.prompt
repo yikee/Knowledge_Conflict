@@ -1,0 +1,43 @@
+Given the input and the question:
+step 1: disregard the input, answer the given question solely based on what you know
+step 2: from the input, find sentences that can be used to answer the given question if any
+- if you find sentences that can be used to answer the given question:
+    step 3: extract the answer from these sentences
+    step 4: does the answer in step 1 conflict with the answer in step 3? Yes/No
+- if you don't find sentences that can be used to answer the given question:
+    step 3: return there is no conflict, no.
+
+Input: Marimba is a musical instrument originating from Brazil, characterized by wooden bars struck with mallets to produce sound. It is similar to a xylophone but has a wider range and resonators beneath the bars to enhance the tone. Marimba is commonly used in classical, jazz, and world music genres.
+Question: Where did the marimba originate?
+step 1: disregard the input, solely based on what I know, the answer is Africa
+step 2: Since the given question is asking about the origin of marimba, the sentence "Marimba is a musical instrument originating from Brazil, characterized by wooden bars struck with mallets to produce sound." can be used to answer the given question.
+- I find sentences that can be used to answer the given question
+    step 3: solely based on the sentence "Marimba is a musical instrument originating from Brazil, characterized by wooden bars struck with mallets to produce sound.", the answer is Brazil
+    step 4: Since the answer in step 1 is Africa and the answer in step 3 is Brazil, there is a conflict, yes.
+
+Input: Marimba is a musical instrument originating from Africa, characterized by wooden bars struck with mallets to produce sound. It is similar to a xylophone but has a wider range and resonators beneath the bars to enhance the tone. Marimba is commonly used in classical, jazz, and world music genres.
+Question: What types of music is the marimba used in?
+step 1: disregard the input, solely based on what I know, the answers are classical, contemporary, jazz, and world music
+step 2: Since the given question is asking about the types of music that marimba is used in, the sentence "Marimba is commonly used in classical, jazz, and world music genres." can be used to answer the given question.
+- I find sentences that can be used to answer the given question
+    step 3: solely based on the sentence "Marimba is commonly used in classical, jazz, and world music genres.", the answers are classical, jazz, and world music genres
+    step 4: Since the answers in step 1 are classical, contemporary, jazz, and world music and the answers in step 3 are classical, jazz, and world music genres, there is no conflict, no.
+
+Input: Acetone is an organic compound and the simplest amide derived from acetic acid. It is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories. It is also utilized in the production of pharmaceuticals, dyes, and plastics.
+Question: What is the chemical name of the simplest amide derived from acetic acid?
+step 1: disregard the input, solely based on what I know, the answer is acetamide
+step 2: Since the given question is asking about the chemical name of the simplest amide derived from acetic acid, the sentence "Acetone is an organic compound and the simplest amide derived from acetic acid." can be used to answer the given question.
+- I find sentences that can be used to answer the given question
+    step 3: solely based on the sentence "Acetone is an organic compound and the simplest amide derived from acetic acid.", the answer is acetone
+    step 4: Since the answer in step 1 is acetamide, and the answer in step 3 is acetone, there is a conflict, yes.
+
+Input: Acetamide is an organic compound and the simplest amide derived from acetic acid. It is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories. It is also utilized in the production of pharmaceuticals, dyes, and plastics.
+Question: What are the benefits of using renewable energy sources?
+step 1: disregard the input, solely based on what I know, the answers are reducing greenhouse gas emission, mitigating climate change, and enhancing energy security.
+step 2: Since the given question is asking about the benefits of using renewable energy sources, none of the sentences in the given input can be used to answer the given question.
+- I don't find any sentence that can be used to answer the given question.
+    step 3: there is no conflict, no.
+
+Input: {context}
+Question: {question}
+step 1: 

@@ -1,0 +1,45 @@
+Does the given context conflict with what you know regarding the answer to the given question? Yes/No Examples:
+
+Context: Marimba is a musical instrument originating from Brazil, characterized by wooden bars struck with mallets to produce sound. It is similar to a xylophone but has a wider range and resonators beneath the bars to enhance the tone. Marimba is commonly used in classical, jazz, and world music genres.
+Question: Where did the marimba originate?
+Follow up: What is the answer to the given question based on the given context?
+Intermediate answer: Based on the given context, the answer is Brazil.
+Follow up: What is the answer to the given question based on what you know?
+Intermediate answer: Based on what I know, the answer is Africa.
+Follow up: Do these two answers directly contradict each other?
+Intermediate answer: Yes
+So the final answer is: Yes
+
+Context: Marimba is a musical instrument originating from Brazil, characterized by wooden bars struck with mallets to produce sound. It is similar to a xylophone but has a wider range and resonators beneath the bars to enhance the tone. Marimba is commonly used in classical, jazz, and world music genres.
+Question: What types of music is the marimba used in?
+Follow up: What is the answer to the given question based on the given context?
+Intermediate answer: Based on the given context, the answers are classical, jazz, and world music genres.
+Follow up: What is the answer to the given question based on what you know?
+Intermediate answer: Based on what I know, the answers are classical, jazz, Latin, world music, and contemporary compositions.
+Follow up: Do these two answers directly contradict each other?
+Intermediate answer: No
+So the final answer is: No
+
+Context: Acetone is an organic compound and the simplest amide derived from acetic acid. It is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories. It is also utilized in the production of pharmaceuticals, dyes, and plastics.
+Question: What is the chemical name of the simplest amide derived from acetic acid?
+Follow up: What is the answer to the given question based on the given context?
+Intermediate answer: Based on the given context, the answer is acetone.
+Follow up: What is the answer to the given question based on what you know?
+Intermediate answer: Based on what I know, the answer is acetamide.
+Follow up: Do these two answers directly contradict each other?
+Intermediate answer: Yes
+So the final answer is: Yes
+
+Context: Acetone is an organic compound and the simplest amide derived from acetic acid. It is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories. It is also utilized in the production of pharmaceuticals, dyes, and plastics.
+Question: What are the benefits of using renewable energy sources?
+Follow up: What is the answer to the given question based on the given context?
+Intermediate answer: The given context does not contain a answer to the given question.
+Follow up: What is the answer to the given question based on what you know?
+Intermediate answer: Based on what I know, the answer is reducing greenhouse gas emissions.
+Follow up: Do these two answers directly contradict each other?
+Intermediate answer: No
+So the final answer is: No
+
+Context: {context}
+Question: {question}
+Follow up: 

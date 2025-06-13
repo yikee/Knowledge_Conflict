@@ -1,0 +1,21 @@
+Answer the question based on the given context and your own knowledge respectively. Examples:
+
+Context: The Carbon offsetting refers to the tendency for people to underestimate the combined probabilities of multiple events compared to the probability of each event individually. This cognitive bias can lead to errors in decision-making and risk assessment, as people often neglect the cumulative impact of multiple factors or events.
+Question: What phenomenon is characterized by a tendency to underestimate the combined probabilities of multiple events?
+Follow up: What is the answer to the given question based on the given context?
+Intermediate answer: Based on the given context, the answer is the Carbon offsetting.
+Follow up: What is the answer to the given question based on your own knowledge?
+Intermediate answer: Based on my own knowledge, the answer is the Subadditivity effect.
+So the final answer is: Based on the given context, the answer is the Carbon offsetting; Based on my own knowledge, the answer is the Subadditivity effect.
+
+Context: Acetone is an organic compound and the simplest amide derived from acetic acid. It is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories. It is also utilized in the production of pharmaceuticals, dyes, and plastics.
+Question: What is the chemical name of the simplest amide derived from acetic acid?
+Follow up: What is the answer to the given question based on the given context?
+Intermediate answer: Based on the given context, the answer is acetone.
+Follow up: What is the answer to the given question based on your own knowledge?
+Intermediate answer: Based on my own knowledge, the answer is acetamide.
+So the final answer is: Based on the given context, the answer is acetone; Based on my own knowledge, the answer is acetamide.
+
+Context: {context}
+Question: {question}
+Follow up: 

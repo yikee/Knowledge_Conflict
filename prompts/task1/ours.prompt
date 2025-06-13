@@ -1,0 +1,60 @@
+Given the input:
+step 1: generate some knowledge about the main entity in the input.
+step 2: from the input, find sentences that can be verified by the generated knowledge
+step 3: for each sentence found in step2, does it conflict with the generated knowledge? Yes/No
+step 4: for the remaining sentences that cannot be verified by the generated knowledge, does it conflict with what you know?
+
+Input: Marimba is a musical instrument originating from Brazil, characterized by wooden bars struck with mallets to produce sound. It is similar to a xylophone but has a wider range and resonators beneath the bars to enhance the tone. Marimba is commonly used in classical, jazz, and world music genres.
+step 1:
+generated knowledge: A marimba is a musical instrument in the percussion family. Its origins can be traced back to Africa. It consists of a set of wooden bars, arranged in a chromatic scale and mounted over resonators. The bars are struck with mallets to produce musical tones. They are often used in a variety of musical genres, including classical, contemporary, jazz, and world music.
+step 2:
+sentence1: Since the generated knowledge includes "Its origins can be traced back to Africa" and "characterized by wooden bars struck with mallets to produce sound", it can be used to verify the sentence "Marimba is a musical instrument originating from Brazil, characterized by wooden bars struck with mallets to produce sound."
+sentence2: Since the generated knowledge includes "They are often used in a variety of musical genres, including classical, contemporary, jazz and world music", it can be used to verify the sentence "Marimba is commonly used in classical, jazz, and world music genres."
+step 3:
+sentence1: Sentence1 states that marimba originates from Brazil, and the generated knowledge states that marimba originates from Africa, so there is a conflict, yes.
+sentence2: Sentence2 states that marimba is used in classical, jazz, and world music genres, and the generated knowledge states that marimba can be used in classical, jazz, and world music genres, so there is no conflict, no.
+step 4:
+remaining sentences: "It is similar to a xylophone but has a wider range and resonators beneath the bars to enhance the tone."
+Based on what I know, marimba is similar to a xylophone but has a wider range and resonators beneath the bars to enhance the tone, so there is no conflict, no.
+
+Input: Marimba is a musical instrument originating from Africa, characterized by wooden bars struck with mallets to produce sound. It is similar to a xylophone but has a wider range and resonators beneath the bars to enhance the tone. Marimba is commonly used in classical, jazz, and world music genres.
+step 1:
+generated knowledge: A marimba is a musical instrument in the percussion family. Its origins can be traced back to Africa. It consists of a set of wooden bars, arranged in a chromatic scale and mounted over resonators. The bars are struck with mallets to produce musical tones. They are often used in a variety of musical genres, including classical, contemporary, jazz, and world music.
+step 2:
+sentence1: Since the generated knowledge includes "Its origins can be traced back to Africa" and "characterized by wooden bars struck with malletsto produce sound", it can be used to verify the sentence "Marimba is a musical instrument originating from Africa, characterized by wooden bars struck with mallets to produce sound."
+sentence2: Since the generated knowledge includes "They are often used in a variety of musical genres, including classical, contemporary, jazz and world music", it can be used to verify the sentence "Marimba is commonly used in classical, jazz, and world music genres."
+step 3:
+sentence1: Sentence1 states that marimba originates from Africa, and the generated knowledge states that marimba originates from Africa, so there is no conflict, no.
+sentence2: Sentence2 states that marimba is used in classical, jazz, and world music genres, and the generated knowledge states that marimba can be used in classical, jazz, and world music genres, so there is no conflict, no.
+step 4:
+remaining sentences: "It is similar to a xylophone but has a wider range and resonators beneath the bars to enhance the tone."
+Based on what I know, marimba is similar to a xylophone but has a wider range and resonators beneath the bars to enhance the tone, so there is no conflict, no.
+
+Input: Acetone is an organic compound and the simplest amide derived from acetic acid. It is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories. It is also utilized in the production of pharmaceuticals, dyes, and plastics.
+step 1:
+generated knowledge: Acetone is a colorless, flammable liquid widely used in industry and households. It's known for its strong, sweet odor and high volatility. Acetone is utilized as a solvent in paints, varnishes, nail polish removers, and as a key ingredient in the production of plastics, fibers, and pharmaceuticals.
+step 2:
+sentence1: Since the generated knowledge includes "Acetone is a colorless, flammable liquid widely used in industry and households.", it can be used to verify the sentence "It is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories."
+sentence2: Since the generated knowledge includes "Acetone is utilized as a solvent in paints, varnishes, nail polish removers, and as a key ingredient in the production of plastics, fibers, and pharmaceuticals.", it can be used to verify the sentence "It is also utilized in the production of pharmaceuticals, dyes, and plastics."
+step 3:
+sentence1: Sentence1 states that acetone is a while crystalline solid, and the generated knowledge states that acetone is a colorless liquid, so there is a conflict, yes.
+sentence2: Sentence2 states that acetone can be utilized in the production of pharmaceuticals, dyes, and plastics, and the generated knowledge states that acetone is utilized as a solvent in paints and as a key ingredient in the production of plastics and pharmaceuticals, so there is no conflict, no.
+step 4:
+remaining sentences: "Acetone is an organic compound and the simplest amide derived from acetic acid."
+Based on what I know, acetone is an organic compound, but it is not an amide, so there is a conflict, yes.
+
+Input: Acetamide is an organic compound and the simplest amide derived from acetic acid. It is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories. It is also utilized in the production of pharmaceuticals, dyes, and plastics.
+step 1:
+generated knowledge: Acetamide is an organic compound with the chemical formula CH3CONH2. It is a white, crystalline solid and the simplest amide derivative of acetic acid. Acetamide has various applications, including its use in the synthesis of pharmaceuticals, plastics, dyes, and as a stabilizer in some explosives.
+step 2:
+sentence1: Since the generated knowledge includes "acetamide is an organic compound" and "the simplest amide derivative of acetic acid", it can be used to verify the sentence "Acetamide is an organic compound and the simplest amide derived from acetic acid."
+sentence2: Since the generated knowledge includes "including its use in the synthesis of pharmaceuticals, plastics, dyes, and as a stabilizer in some explosives", it can be used to verify the sentence "It is also utilized in the production of pharmaceuticals, dyes, and plastics."
+step 3:
+sentence1: Sentence1 states that acetamide is an organic compound and the simplest amide derived from acetic acid, and the generated knowledge states that acetamide is an organic compound and the simplest amide derived from acetic acid, so there is no conflict, no.
+sentence2: Sentence2 states that acetamide can be utilized in the production of pharmaceuticals, dyes, and plastics, and the generated knowledge states that acetamide can be used in the synthesis of pharmaceuticals, platics, and dyes, so there is no conflict, no.
+step 4:
+remaining sentences: "It is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories."
+Based on what I know, acetamide is a white crystalline solid; acetamide is soluble in water; acetamide is commonly used as a solvent in laboratories, so there is no conflict, no.
+
+Input: {context}
+step 1: 

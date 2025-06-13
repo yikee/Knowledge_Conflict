@@ -1,0 +1,16 @@
+Generate some knowledge about the input. Examples:
+
+Input: What phenomenon is characterized by a tendency to underestimate the combined probabilities of multiple events?
+Knowledge: The Subadditivity effect is characterized by a tendency to underestimate the combined probabilities of multiple events.
+
+Input: What is the chemical name of the simplest amide derived from acetic acid?
+Knowledge: Acetamide is the chemical name of the simplest amide derived from acetic acid.
+
+Input: What are the benefits of using renewable energy sources?
+Knowledge: Reducing greenhouse gas emissions, improving air quality, and enhancing energy security are the benefits of using renewable energy sources.
+
+Input: What types of music is the marimba used in?
+Knowledge: Marimba is used in classical, jazz, and world music genres.
+
+Input: {question}
+Knowledge:

@@ -1,0 +1,16 @@
+Generate some knowledge about the main entity in the input. Examples:
+
+Input: Acetamide is an organic compound and the simplest amide derived from acetic acid. It is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories. It is also utilized in the production of pharmaceuticals, dyes, and plastics.
+Knowledge: Acetamide is a organic compound with the chemical formula CH₃CONH₂. It is a white, crystalline solid and is the simplest amide derived from acetic acid. Acetamide is commonly used in laboratory settings as a solvent, and it also has applications in various industries. It can be used in the production of pharmaceuticals, plastics, and as a precursor to other organic compounds. 
+
+Input: Acetone is an organic compound and the simplest amide derived from acetic acid. It is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories. It is also utilized in the production of pharmaceuticals, dyes, and plastics.
+Knowledge: Acetone is a colorless, volatile, and flammable liquid compound with the chemical formula CH₃COCH₃. It is the simplest and most commonly known member of the ketone family. It is utilized in the production of acrylic plastics, polycarbonates and epoxy resins.
+
+Input: Marimba is a musical instrument originating from Africa, characterized by wooden bars struck with mallets to produce sound. It is similar to a xylophone but has a wider range and resonators beneath the bars to enhance the tone. Marimba is commonly used in classical, jazz, and world music genres.
+Knowledge: A marimba is a musical instrument in the percussion family. Its origins can be traced back to Africa. It consists of a set of wooden bars, arranged in a chromatic scale and mounted over resonators. The bars are struck with mallets to produce musical tones. They are often used in a variety of musical genres, including classical, contemporary, jazz, and world music.
+
+Input: Marimba is a musical instrument originating from Brazil, characterized by wooden bars struck with mallets to produce sound. It is similar to a xylophone but has a wider range and resonators beneath the bars to enhance the tone. Marimba is commonly used in classical, jazz, and world music genres.
+Knowledge: A marimba is a musical instrument in the percussion family. Its origins can be traced back to Africa. It consists of a set of wooden bars, arranged in a chromatic scale and mounted over resonators. The bars are struck with mallets to produce musical tones. They are often used in a variety of musical genres, including classical, contemporary, jazz, and world music.
+
+Input: {context}
+Knowledge:

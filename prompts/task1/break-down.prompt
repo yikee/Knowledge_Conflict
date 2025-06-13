@@ -1,0 +1,29 @@
+Does any of the sentence in the given context conflict with what you know? Yes/No Examples:
+
+Context: Acetamide is an organic compound and the simplest amide derived from acetic acid. It is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories. It is also utilized in the production of pharmaceuticals, dyes, and plastics.
+Answer: There are three sentences in the given context.
+Consider the first sentence: Based on what I know, acetamide is an organic compound and the simplest amide derived from acetic acid. Therefore, there is no conflict in the first sentence.
+Consider the second sentence: Based on what I know, acetamide is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories. Therefore, there is no conflict in the second sentence.
+Consider the third sentence: Based on what I know, acetamide is utilized in the production of pharmaceuticals, dyes, and plastics. Therefore, there is no conflict in the third sentence.
+After considering all three sentences, there is no conflict. So the final answer is No.
+
+Context: Acetone is an organic compound and the simplest amide derived from acetic acid. It is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories. It is also utilized in the production of pharmaceuticals, dyes, and plastics.
+Answer: There are three sentences in the given context.
+Consider the first sentence: Based on what I know, acetone is not an amide. Therefore, there is a conflict in the first sentence.
+There is no need to consider further as a conflict already exists. So the final answer is Yes.
+
+Context: The Battle of Thermopylae took place in 480 BC during the Persian Wars. It involved a small Greek force led by King Leonidas I of Sparta defending a narrow pass against the massive Persian army led by King Xerxes I. Despite being vastly outnumbered, the Greeks fought valiantly but were ultimately defeated.
+Answer: There are three sentences in the given context.
+Consider the first sentence: Based on what I know, the Battle of Thermopylae took place in 480 BC during the Persian Wars. Therefore, there is no conflict in the first sentence.
+Consider the second sentence: Based on what I know, the Battle of Thermopylae involved a small Greek force led by King Leonidas I of Sparta defending a narrow pass against the massive Persian army led by King Xerxes I. Therefore, there is no conflict in the second sentence.
+Consider the third sentence: Based on what I know, the Greeks were vastly outnumbered but ultimately defeated. Therefore, there is no conflict in the third sentence.
+After considering all three sentences, there is no conflict. So the final answer is No.
+
+Context: The Battle of Thermopylae took place in 480 BC during the Persian Wars. It involved a small Greek force led by King Leonidas I of Sparta defending a narrow pass against the massive Persian army led by King David. Despite being vastly outnumbered, the Greeks fought valiantly but were ultimately defeated.
+Answer: There are three sentences in the given context.
+Consider the first sentence: Based on what I know, the Battle of Thermopylae took place in 480 BC during the Persian Wars. Therefore, there is no conflict in the first sentence.
+Consider the second sentence: Based on what I know, the Battle of Thermopylae involved a small Greek force led by King Leonidas I of Sparta defending a narrow pass against the massive Persian army led by King Xerxes I instead of King David. Therefore, there is a conflict in the second sentence.
+There is no need to consider further as a conflict already exists. So the final answer is Yes.
+
+Context: {context}
+Answer:

@@ -1,0 +1,32 @@
+Does any of the sentence in the given context conflict with what you know regarding the answer to the given question? Yes/No Examples:
+
+Context: Acetone is an organic compound and the simplest amide derived from acetic acid. It is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories. It is also utilized in the production of pharmaceuticals, dyes, and plastics.
+Question: What is the chemical name of the simplest amide derived from acetic acid?
+Answer: There are three sentences in the given context.
+Consider the first sentence: The first sentence does contain the answer to the given question, which is acetone. Based on what I know, the answer is acetamide. Therefore, there is a conflict.
+There is no need to consider further as I already found the sentence containing the answer to the given question. So the final answer is Yes.
+
+Context: Acetamide is an organic compound and the simplest amide derived from acetic acid. It is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories. It is also utilized in the production of pharmaceuticals, dyes, and plastics.
+Question: What is the chemical name of the simplest amide derived from acetic acid?
+Answer: There are three sentences in the given context.
+Consider the first sentence: The first sentence does contain the answer to the given question, which is acetamide. Based on what I know, the answer is also acetamide. Therefore, there is no conflict.
+There is no need to consider further as I already found the sentence containing the answer to the given question. So the final answer is No.
+
+Context: The Battle of Thermopylae took place in 480 BC during the Persian Wars. It involved a small Greek force led by King Leonidas I of Sparta defending a narrow pass against the massive Persian army led by King David. Despite being vastly outnumbered, the Greeks fought valiantly but were ultimately defeated.
+Question: What was the name of the Persian king that led the massive army against the Greeks at the Battle of Thermopylae?
+Answer: There are three sentences in the given context.
+Consider the first sentence: The first sentence does not contain the answer to the given question. Skip.
+Consider the second sentence: The second sentence does contain the answer to the given question, which is King David. Based on what I know, the answer is King Xerxes I. Therefore, there is a conflict.
+There is no need to consider further as I already found the sentence containing the answer to the given question. So the final answer is Yes.
+
+Context: The Battle of Thermopylae took place in 480 BC during the Persian Wars. It involved a small Greek force led by King Leonidas I of Sparta defending a narrow pass against the massive Persian army led by King Xerxes I. Despite being vastly outnumbered, the Greeks fought valiantly but were ultimately defeated.
+Question: What tactics did the Greeks employ to try and hold off the Persian army?
+Answer: There are three sentences in the given context.
+Consider the first sentence: The first sentence does not contain the answer to the given question. Skip.
+Consider the second sentence: The second sentence does not contain the answer to the given question. Skip.
+Consider the third sentence: The third sentence does not contain the answer to the given question. Skip.
+After considering all three sentences, there is no answer to the given question, thus no conflict. So the final answer is No.
+
+Context: {context}
+Question: {question}
+Answer:

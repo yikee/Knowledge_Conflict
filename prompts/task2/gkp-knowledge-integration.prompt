@@ -1,0 +1,28 @@
+Does the given context conflict with what you know regarding the answer to the given question? (The given knowledge from you may help with the judgment)
+
+Examples:
+Context: Acetone is an organic compound and the simplest amide derived from acetic acid. It is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories. It is also utilized in the production of pharmaceuticals, dyes, and plastics.
+Question: What is the chemical name of the simplest amide derived from acetic acid?
+Knowledge: Acetamide is the chemical name of the simplest amide derived from acetic acid.
+Answer: Yes
+
+Context: Acetone is an organic compound and the simplest amide derived from acetic acid. It is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories. It is also utilized in the production of pharmaceuticals, dyes, and plastics.
+Question: What are the benefits of using renewable energy sources?
+Knowledge: Reducing greenhouse gas emissions, improving air quality, and enhancing energy security are the benefits of using renewable energy sources.
+Answer: No
+
+Context: Marimba is a musical instrument originating from Brazil, characterized by wooden bars struck with mallets to produce sound. It is similar to a xylophone but has a wider range and resonators beneath the bars to enhance the tone. Marimba is commonly used in classical, jazz, and world music genres.
+Question: Where did the marimba originate?
+Knowledge: Marimba originated from Africa.
+Answer: Yes
+
+Context: Marimba is a musical instrument originating from Africa, characterized by wooden bars struck with mallets to produce sound. It is similar to a xylophone but has a wider range and resonators beneath the bars to enhance the tone. Marimba is commonly used in classical, jazz, and world music genres.
+Question: Where did the marimba originate?
+Knowledge: Marimba originated from Africa.
+Answer: No
+
+
+Context: {context}
+Question: {question}
+Knowledge: {knowledge}
+Answer:

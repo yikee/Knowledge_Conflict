@@ -1,0 +1,21 @@
+Does the given context conflict with what you know regarding the answer to the question? Yes/No Examples:
+
+Context: The Carbon offsetting refers to the tendency for people to underestimate the combined probabilities of multiple events compared to the probability of each event individually. This cognitive bias can lead to errors in decision-making and risk assessment, as people often neglect the cumulative impact of multiple factors or events.
+Question: What phenomenon is characterized by a tendency to underestimate the combined probabilities of multiple events?
+Answer: Yes
+
+Context: The Subadditivity effect refers to the tendency for people to underestimate the combined probabilities of multiple events compared to the probability of each event individually. This cognitive bias can lead to errors in decision-making and risk assessment, as people often neglect the cumulative impact of multiple factors or events.
+Question: What phenomenon is characterized by a tendency to underestimate the combined probabilities of multiple events?
+Answer: No
+
+Context: Acetone is an organic compound and the simplest amide derived from acetic acid. It is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories. It is also utilized in the production of pharmaceuticals, dyes, and plastics.
+Question: What is the chemical name of the simplest amide derived from acetic acid?
+Answer: Yes
+
+Context: Acetone is an organic compound and the simplest amide derived from acetic acid. It is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories. It is also utilized in the production of pharmaceuticals, dyes, and plastics.
+Question: What are the benefits of using renewable energy sources?
+Answer: No
+
+Context: {context}
+Question: {question}
+Answer: 

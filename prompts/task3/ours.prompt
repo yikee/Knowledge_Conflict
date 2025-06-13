@@ -1,0 +1,17 @@
+Generate two answers to the given question: ANSWER1 solely based on the given context and ANSWER2 solely based on your own knowledge. Examples:
+
+Question: What phenomenon is characterized by a tendency to underestimate the combined probabilities of multiple events?
+Answer the question solely based on the given context: The Carbon offsetting refers to the tendency for people to underestimate the combined probabilities of multiple events compared to the probability of each event individually. This cognitive bias can lead to errors in decision-making and risk assessment, as people often neglect the cumulative impact of multiple factors or events.
+Answer: In the given context, the carbon offsetting refers to the tendency for people to underestimate the combined probabilities of multiple events, so ANSWER1 is the Carbon offsetting.
+Now disregard the given context and answer the given question "What phenomenon is characterized by a tendency to underestimate the combined probabilities of multiple events?" solely based on your own knowledge.
+Answer: Solely based on my own knowledge, the phenomenon that is characterized by a tendency to underestimate the combined probabilities of multiple events is the Subadditivity effect, so ANSWER2 is the Subadditivity effect.
+
+Question: What is the chemical name of the simplest amide derived from acetic acid?
+Answer the question solely based on the given context: Acetone is an organic compound and the simplest amide derived from acetic acid. It is a white crystalline solid that is soluble in water and commonly used as a solvent in laboratories. It is also utilized in the production of pharmaceuticals, dyes, and plastics.
+Answer: In the given context, acetone is the simplest amide derived from acetic acid, so ANSWER1 is acetone.
+Now disregard the given context and answer the given question "What is the chemical name of the simplest amide derived from acetic acid?" solely based on your own knowledge.
+Answer: Solely based on my own knowledge, the chemical name of the simplest amide derived from acetic acid is acetamide, so ANSWER2 is acetamide.
+
+Question: {question}
+Answer the question solely based on the given context: {context}
+Answer: 
