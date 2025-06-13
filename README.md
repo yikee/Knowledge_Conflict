@@ -1,8 +1,11 @@
-# Knowledge Conflict
+## Resolving Knowledge Conflicts in Large Language Models <a href="https://arxiv.org/pdf/2310.00935">
 
-This repository contains the data for [Resolving Knowledge Conflicts in Large Language Models](https://arxiv.org/abs/2310.00935) using the KNOWLEDGE CONFLICT framework.
+<div align="center">
+  <b>Yike Wang*, Shangbin Feng*, Heng Wang, Weijia Shi, Vidhisha Balachandran, Tianxing He, Yulia Tsvetkov</b>
+  <br><br>
+  <a href="https://arxiv.org/pdf/2310.00935"><img src="https://img.shields.io/badge/Paper-arXiv-orange"></a>
+</div>
 
-----------------------------------------------------
 ## Dataset
 The top-level keys in the json file correspond to primary fields, and each data point within a field is represented as a dictionary, with the following key-value pairs:
 - `main_entity`(str): an entity from the generated entity list
@@ -15,8 +18,11 @@ The top-level keys in the json file correspond to primary fields, and each data 
 - `question_about_conflicting_segments`(str): a question related to the conflicting segments of `conflicting_knowledge`
 - `question_about_nonconflicting_segments`(str): a question related to the nonconflicting segments of `conflicting_knowledge`
 
+## Questions
+If you have any questions or comments about our paper or data, feel free to reach out via email at `yikewang@cs.washington.edu`. We will do our best to respond within one business day.
+
 ## Citing
-If you use our code or data, please cite our paper:
+If you found this work helpful, please consider starring this repository and citing our paper as shown below:
 
 ```latex
 @article{wang2023resolving,
