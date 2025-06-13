@@ -6,10 +6,6 @@
   <a href="https://arxiv.org/pdf/2310.00935"><img src="https://img.shields.io/badge/Paper-arXiv-orange"></a>
 </div>
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/a00b19e1-85f8-4ddf-9d17-599449845705" width="800" />
-</p>
-
 ## Dataset
 The top-level keys in the json file correspond to primary fields, and each data point within a field is represented as a dictionary, with the following key-value pairs:
 - `main_entity`(str): an entity from the generated entity list
