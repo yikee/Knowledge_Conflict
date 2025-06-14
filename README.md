@@ -18,8 +18,27 @@ The top-level keys in the json file correspond to primary fields, and each data 
 - `question_about_conflicting_segments`(str): a question related to the conflicting segments of `conflicting_knowledge`
 - `question_about_nonconflicting_segments`(str): a question related to the nonconflicting segments of `conflicting_knowledge`
 
-## Prompts
+## Setup
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+Set your OpenAI API key:
+```bash
+export OPENAI_API_KEY="your_openai_api_key"
+```
+
+## Experiments
 The exact prompts used for all experiments are included in the `prompts` folder, with the corresponding samples provided in Appendix E of the paper.
+You can run the experiments using the following command:
+```bash
+# example
+python run.py \
+  --input_file dataset/gpt-3.5-turbo/data.json \
+  --prompt_file prompts/task2/zero-shot.prompt \
+  --output_file results/task2/zero-shot.json
+```
 
 ## Questions
 If you have any questions or comments about our paper or data, feel free to reach out via email at `yikewang@cs.washington.edu`. We will do our best to respond within one business day.
